@@ -49,4 +49,8 @@
     <string name="hardware_keys_action_screenshot">Screenshot</string>
     <string name="hardware_keys_action_partial_screenshot">Partial screenshot</string>
     <string name="hardware_keys_action_pip">PiP</string>
+
+    <!-- Unlink ring & notification volume -->
+    <string name="link_volume_option_title">Link ring and notification volume</string>
+
 </resources>
