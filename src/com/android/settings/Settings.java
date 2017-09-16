@@ -191,6 +191,7 @@ public class Settings extends SettingsActivity {
     public static class StorageDashboardActivity extends SettingsActivity {}
     public static class UserAndAccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
+    public static class ButtonSettingsActivity extends SettingsActivity {}
 
     public static class BenzoSettingsActivity extends SettingsActivity { /* empty */ }
     public static class GlobalActionsSettingsActivity extends SettingsActivity { /* empty */ }
