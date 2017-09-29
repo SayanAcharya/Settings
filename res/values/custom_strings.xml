@@ -15,8 +15,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Buttons -->
-    <string name="button_title">Buttons</string>
-
+    <string name="button_settings_title">Button Settings</string>
+    <string name="button_settings_summary">Hardware and software keys</string>
     <!-- Buttons backlight -->
     <string name="button_brightness_title">Backlight</string>
     <string name="backlight_timeout_title">Buttons backlight timeout</string>
