@@ -53,4 +53,7 @@
     <!-- Unlink ring & notification volume -->
     <string name="link_volume_option_title">Link ring and notification volume</string>
 
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+
 </resources>
