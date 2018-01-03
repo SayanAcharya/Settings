@@ -87,14 +87,14 @@ public class SoundSettings extends DashboardFragment {
         }
 
         PreferenceScreen prefScreen = getPreferenceScreen();
-        PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+        Preference incallVibPref = findPreference(INCALL_VIB_OPTIONS);
 
         if (Utils.isVoiceCapable(getContext())) {
             mVolumeLinkNotification = (TwoStatePreference) findPreference(KEY_VOLUME_LINK_NOTIFICATION);
             initVolumeLinkNotification();
             updateVolumeLinkNotification();
         } else {
-            prefScreen.removePreference(incallVibCategory);
+            prefScreen.removePreference(incallVibPref);
             removePreference(KEY_VOLUME_LINK_NOTIFICATION);
         }
     }
